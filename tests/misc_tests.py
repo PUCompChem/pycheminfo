@@ -1,4 +1,4 @@
-import sys  
+import sys
 sys.path.append("./src/")
 sys.path.append("../src/")
 
@@ -11,3 +11,8 @@ print(a2)
 
 b = Bond(atom1 = a1)
 print(b)
+
+
+ct = ConTable()
+ct.atoms.append(a1)
+print(ct)
